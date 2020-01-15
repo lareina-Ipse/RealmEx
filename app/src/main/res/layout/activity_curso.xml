@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.CursoActivity">
+
+    <EditText
+        android:id="@+id/cursoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id Profesor"/>
+
+    <EditText
+        android:id="@+id/cursoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Curso"/>
+
+    <EditText
+        android:id="@+id/cursoDc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duraction Curso"/>
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="salvar"/>
+
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actualizar"/>
+
+    <Button
+        android:id="@+id/borrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="borrar"/>
+
+</LinearLayout>
